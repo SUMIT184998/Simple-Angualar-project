@@ -1,11 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { SuccessAlertComponent } from './success-alert';
+import { WarningAlertComponent} from './warning-alert';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,SuccessAlertComponent,WarningAlertComponent
       ],
     }).compileComponents();
   });
